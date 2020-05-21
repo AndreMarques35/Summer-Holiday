@@ -3,28 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nossos Destinos - Summer Holiday</title>
+    <title>Document</title>
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
-    <header id="header-home">
+    <header id="header-gallery">
         <div id='overlay' data-close='menu'></div>
-        <a href="/public/index.html"><img src='/public/assets/images/Summer Holiday.svg' id='logo' alt='Logo' /> </a>
-        
+        <img src='assets/images/Summer Holiday.svg' id='logo' alt='Logo' />
         <button type='button' id='btn-open'>
-            <img src='/public/assets/images/mnu-gallery-orange.png' alt='menu' />
+            <img src='assets/images/mnu-blueiphone.svg' alt='menu' />
         </button>
         <nav class='menu'>
             <div>
                 <button type='button' id='btn-close' data-close='menu'>
-                    <img src='/public/assets/images/close-black-18dp.svg' alt='close' />
+                    <img src='assets/images/close-black-18dp.svg' alt='close' />
                 </button>
                 <ul>
-                    <li><a href="/public/index.html">Início</a></li>
-                    <li><a href="/public/our-history.html">Nossa História</a></li>
-                    <li><a href="/public/services.html">Serviços</a></li>
-                    <li><a href="/public/gallery.html">Nossos Destinos</a></li>
-                    <li><a href="/public/contact.html">Contato</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#">Nossa História</a></li>
+                    <li><a href="gallery.html">Galeria</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                    <li><a href="services.html">Serviços</a></li>
                 </ul>
             </div>
         
@@ -34,141 +33,89 @@
     <main id="gallery">
         <div>
             <hr/>
-            <h1>Nossos </h1>
+            <h1>Sobre</h1>
         </div>
 
-        <div class="slidershow middle">
-
-            <div class="slides">
-
-                <input type="radio" name="r" id="r1" checked>
-                <input type="radio" name="r" id="r2">
-                <input type="radio" name="r" id="r3">
-                <input type="radio" name="r" id="r4">
-
-                <div class="slide s1">
-                    <img src="assets/images/photos/arches-national-park-1846759_1920.jpg" alt="">
-                </div>
-                <div class="slide">
-                    <img src="assets/images/photos/alev-takil-SdcXiPGLai8-unsplash.jpg" alt="">
-                </div>
-                <div class="slide">
-                    <img src="assets/images/photos/hot-air-ballons-828967_1920.jpg" alt="">
-                </div>
-                <div class="slide">
-                    <img src="assets/images/photos/mika-baumeister-9_PLAFbXois-unsplash.jpg" alt="">
-                </div>
-
+        <div class="content">
+            <div>
+                <img class="mySlides" src="assets/images/photos/arches-national-park-1846759_1920.jpg">
+                <img class="mySlides" src="assets/images/photos/brooklyn-bridge-1791001_1920.jpg" style="display: none;">
+                <img class="mySlides" src="assets/images/photos/hot-air-ballons-828967_1920.jpg" style="display: none;">
+                <img class="mySlides" src="assets/images/photos/alev-takil-SdcXiPGLai8-unsplash.jpg" style="display: none;">
+                <img class="mySlides" src="assets/images/photos/castle-1149756_1920.jpg" style="display: none;">
+                <img class="mySlides" src="assets/images/photos/fernando-jorge-rMaWin9-9Gk-unsplash.jpg" style="display: none;">
+                <img class="mySlides" src="assets/images/photos/antonino-visalli-0-L0yYOBWpE-unsplash.jpg" style="display: none;">
+                <img class="mySlides" src="assets/images/photos/dimitry-anikin-L5xR3wxN4Tw-unsplash.jpg" style="display: none;">
+                <img class="mySlides" src="assets/images/photos/laurentiu-morariu-NR-2_RIb62k-unsplash.jpg" style="display: none;">
+                <img class="mySlides" src="assets/images/photos/louis-hansel-shotsoflouis-AZDQVdjtGa8-unsplash.jpg" style="display: none;">
+                <img class="mySlides" src="assets/images/photos/chris-a-tweten-XGSpOgYgXiQ-unsplash.jpg" style="display: none;">
+                <img class="mySlides" src="assets/images/photos/conor-samuel-UoDluYFH5xk-unsplash.jpg" style="display: none;">
+                <img class="mySlides" src="assets/images/photos/eiffel-tower-768501_1920.jpg" style="display: none;">
+                <img class="mySlides" src="assets/images/photos/james-lee-V5nFWC_Lexw-unsplash.jpg" style="display: none;">
+                <img class="mySlides" src="assets/images/photos/ricardo-gomez-angel-tbdbsYANX9U-unsplash.jpg" style="display: none;">
             </div>
-
-            <div class="navigation">
-
-                <label for="r1" class="bar"></label>
-                <label for="r2" class="bar"></label>
-                <label for="r3" class="bar"></label>
-                <label for="r4" class="bar"></label>
-
+          
+            <div class="photos">
+                <div>
+                    <img class="imagem1 demo opacity" src="assets/images/photos/arches-national-park-1846759_1920.jpg" onclick="currentDiv(1)">
+                    <img class="imagem6 demo opacity" src="assets/images/photos/fernando-jorge-rMaWin9-9Gk-unsplash.jpg" onclick="currentDiv(6)">
+                    <img class="imagem11 demo opacity" src="assets/images/photos/chris-a-tweten-XGSpOgYgXiQ-unsplash.jpg" onclick="currentDiv(11)">
+                </div>
+                <div>
+                    <img class="imagem2 demo opacity" src="assets/images/photos/brooklyn-bridge-1791001_1920.jpg" onclick="currentDiv(2)">
+                    <img class="imagem7 demo opacity" src="assets/images/photos/antonino-visalli-0-L0yYOBWpE-unsplash.jpg" onclick="currentDiv(7)">
+                    <img class="imagem12 demo opacity" src="assets/images/photos/conor-samuel-UoDluYFH5xk-unsplash.jpg" onclick="currentDiv(12)">
+                </div>
+                <div>
+                    <img class="imagem3 demo opacity" src="assets/images/photos/hot-air-ballons-828967_1920.jpg" onclick="currentDiv(3)">
+                    <img class="imagem8 demo opacity" src="assets/images/photos/dimitry-anikin-L5xR3wxN4Tw-unsplash.jpg" onclick="currentDiv(8)">
+                    <img class="imagem13 demo opacity" src="assets/images/photos/eiffel-tower-768501_1920.jpg" onclick="currentDiv(13)">
+                </div>
+                <div>
+                    <img class="imagem4 demo opacity" src="assets/images/photos/alev-takil-SdcXiPGLai8-unsplash.jpg" onclick="currentDiv(4)">
+                    <img class="imagem9 demo opacity" src="assets/images/photos/laurentiu-morariu-NR-2_RIb62k-unsplash.jpg" onclick="currentDiv(9)">
+                    <img class="imagem14 demo opacity" src="assets/images/photos/james-lee-V5nFWC_Lexw-unsplash.jpg" onclick="currentDiv(14)">
+                </div>
+                <div>
+                    <img class="imagem5 demo opacity" src="assets/images/photos/castle-1149756_1920.jpg" onclick="currentDiv(5)">
+                    <img class="imagem10 demo opacity" src="assets/images/photos/louis-hansel-shotsoflouis-AZDQVdjtGa8-unsplash.jpg" onclick="currentDiv(10)">
+                    <img class="imagem15 demo opacity" src="assets/images/photos/ricardo-gomez-angel-tbdbsYANX9U-unsplash.jpg" onclick="currentDiv(15)">
+                </div>
             </div>
-
-        </div>
-
-        <div class="slidershow2 middle2">
-
-            <div class="slides2">
-
-                <input type="radio" name="r" id="r5" checked>
-                <input type="radio" name="r" id="r6">
-                <input type="radio" name="r" id="r7">
-                <input type="radio" name="r" id="r8">
-
-                <div class="slide2 s2">
-                    <img src="assets/images/photos/arches-national-park-1846759_1920.jpg" alt="">
-                </div>
-                <div class="slide2">
-                    <img src="assets/images/photos/alev-takil-SdcXiPGLai8-unsplash.jpg" alt="">
-                </div>
-                <div class="slide2">
-                    <img src="assets/images/photos/hot-air-ballons-828967_1920.jpg" alt="">
-                </div>
-                <div class="slide2">
-                    <img src="assets/images/photos/mika-baumeister-9_PLAFbXois-unsplash.jpg" alt="">
-                </div>
-
-            </div>
-
-            <div class="navigation2">
-
-                <label for="r5" class="bar2"></label>
-                <label for="r6" class="bar2"></label>
-                <label for="r7" class="bar2"></label>
-                <label for="r8" class="bar2"></label>
-
-            </div>
-
-        </div>
-
-        <div class="slidershow3 middle3">
             
-            <div class="slides3">
-
-                <input type="radio" name="r" id="r9" checked>
-                <input type="radio" name="r" id="r10">
-                <input type="radio" name="r" id="r11">
-                <input type="radio" name="r" id="r12">
-
-                <div class="slide3 s3">
-                    <img src="assets/images/photos/arches-national-park-1846759_1920.jpg" alt="">
-                </div>
-                <div class="slide3">
-                    <img src="assets/images/photos/alev-takil-SdcXiPGLai8-unsplash.jpg" alt="">
-                </div>
-                <div class="slide3">
-                    <img src="assets/images/photos/hot-air-ballons-828967_1920.jpg" alt="">
-                </div>
-                <div class="slide3">
-                    <img src="assets/images/photos/mika-baumeister-9_PLAFbXois-unsplash.jpg" alt="">
-                </div>
-
-            </div>
-
-            <div class="navigation3">
-
-                <label for="r9" class="bar3"></label>
-                <label for="r10" class="bar3"></label>
-                <label for="r11" class="bar3"></label>
-                <label for="r12" class="bar3"></label>
-
-            </div>
-
         </div>
+            
         
     </main>
-
+        
+    </main>
     <footer id="footer-gallery">
         <button type="button">
-            <a href="#" ><img src="/public/assets/images/icon-arrow-up.svg" alt="up"></a>
+            <img src="assets/images/icon-arrow-up.svg" alt="up">
         </button>
-        <div class="social">
-            <a href="https://api.whatsapp.com/send?phone=5511985611367"><img src="/public/assets/images/whatsapp.svg" alt="whatsapp"></a>
-            <a href="https://www.facebook.com/glauciodaniel"><img src="/public/assets/images/facebook.svg" alt="facebook"></a>
-            <a href="https://www.youtube.com/channel/UCjWENuSH2gX55-y7QSZiWxA"><img src="/public/assets/images/youtube.svg" alt="youtube"></a>
-            <a href="https://twitter.com/hcodebr"><img src="/public/assets/images/twitter.svg" alt="twitter"></a>
-            <a href="https://www.instagram.com/glauciodaniel/?hl=pt-br"><img src="/public/assets/images/instagram.svg" alt="instagram"></a>
-        </div>
-        <a href="/public/index.html"><img src="/public/assets/images/Summer Holiday copy 2.png" alt="logo-footer" class="logo-footer"></a>
-        <div class="menu-footer">
+                <div class="social">
+                    <a href="#"><img src="assets/images/whatsapp.svg" alt="whatsapp"></a>
+                    <a href="#"><img src="assets/images/facebook.svg" alt="facebook"></a>
+                    <a href="#"><img src="assets/images/youtube.svg" alt="youtube"></a>
+                    <a href="#"><img src="assets/images/twitter.svg" alt="twitter"></a>
+                    <a href="#"><img src="assets/images/instagram.svg" alt="instagram"></a>
+                </div>
+        <a href="#"><img src="assets/images/Summer Holiday copy 2.png" alt="logo-gallery" class="logo-gallery"></a>
+        <div class="menu-gallery">
             <ul>
-                <li><a href="/public/index.html">Início</a></li>
-                <li><a href="/public/our-history.html">Sobre</a></li>
-                <li><a href="/public/services.html">Serviços</a></li>
-                <li><a href="/public/gallery.html">Destinos</a></li>
-                <li><a href="/public/contact.html">Contato</a></li>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Destinos</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
         </div>
-        <p>2020 HCodeLab Green Team - ©Todos os direitos reservados</p>
+        <p>2020 HCodeLab Green Team - Todos os direitos reservados</p>
     </footer>
 
-    <script type="text/javascript" src="javascript/index.js"></script>
+    <script type="text/javascript" src="assets/js/gallery.js">
+        
+    </script>
 
 </body>
 </html>
