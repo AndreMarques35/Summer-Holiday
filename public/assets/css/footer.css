@@ -1,0 +1,233 @@
+#footer-home {
+    width: 100%;
+    min-height: 160px;
+    background-color: var(--dark-blue);
+    position: relative;
+    bottom: 0;
+    display: flex;
+}
+
+#footer-services {
+    width: 100%;
+    min-height: 160px;
+    background-color: var(--orange);
+    position: relative;
+    bottom: 0;
+    display: flex;
+}
+
+#footer-our-history {
+    width: 100%;
+    min-height: 160px;
+    background-color: var(--dark-yellow);
+    position: relative;
+    bottom: 0;
+    display: flex;
+}
+
+#footer-gallery {
+    width: 100%;
+    min-height: 160px;
+    background-color: var(--dark-orange);
+    position: relative;
+    bottom: 0;
+    display: flex;
+    top: 1200px;
+}
+
+#footer-404 {
+    width: 100%;
+    min-height: 160px;
+    background-color: var(--red);
+    position: relative;
+    bottom: 0;
+    display: flex;
+}
+
+#footer-contact {
+    width: 100%;
+    min-height: 160px;
+    background-color: var(--blue);
+    position: relative;
+    bottom: 0;
+    display: flex;
+}
+
+#footer-home button,
+#footer-services button,
+#footer-our-history button,
+#footer-gallery button,
+#footer-contact button,
+#footer-404 button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    right: calc(50vw - 25px);
+    top: -25px;
+    background: var(--white);
+    border: none;
+    outline: none;
+}
+
+#footer-home .social,
+#footer-services .social,
+#footer-our-history .social,
+#footer-gallery .social,
+#footer-contact .social,
+#footer-404 .social {
+    position: absolute;
+    width: 50vw;
+    height: 70px;
+    left: 30px;
+    bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer-home .social img,
+#footer-services .social img,
+#footer-our-history .social img,
+#footer-gallery .social img,
+#footer-contact .social img,
+#footer-404 .social img {
+    height: 35px;
+    width: auto;
+}
+
+#footer-home .logo-footer,
+#footer-services .logo-footer,
+#footer-our-history .logo-footer,
+#footer-gallery .logo-footer,
+#footer-404 .logo-footer,
+#footer-contact .logo-footer {
+    background: none;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+}
+
+#footer-home p,
+#footer-services p,
+#footer-our-history p,
+#footer-gallery p,
+#footer-404 p,
+#footer-contact p {
+    color: var(--white);
+    bottom: 10px;
+    position: absolute;
+    margin: 0;
+    font-size: small;
+    width: 100vw;
+    text-align: center;
+}
+
+#footer-home .menu-footer,
+#footer-services .menu-footer,
+#footer-our-history .menu-footer,
+#footer-gallery .menu-footer,
+#footer-404 .menu-footer,
+#footer-contact .menu-footer {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    
+    #footer-home .social img,
+    #footer-services .social img,
+    #footer-our-history .social img,
+    #footer-gallery .social img,
+    #footer-404 .social img,
+    #footer-contact .social img {
+        height: 60px;
+        width: auto;
+    }
+
+
+    #footer-home .social,
+    #footer-services .social,
+    #footer-our-history .social,
+    #footer-gallery .social,
+    #footer-404 .social,
+    #footer-contact .social {
+        right: 250px;
+        left: initial;
+        width: 40vw;
+        bottom: 80px;
+    }
+
+    #footer-home .social img:hover,
+    #footer-services .social img:hover,
+    #footer-our-history .social img:hover,
+    #footer-gallery .social img:hover,
+    #footer-404 .social img:hover,
+    #footer-contact .social img:hover {
+        opacity: 70%;
+    }
+    
+    #footer-home .logo-footer,
+    #footer-services .logo-footer,
+    #footer-our-history .logo-footer,
+    #footer-gallery .logo-footer,
+    #footer-404 .logo-footer,
+    #footer-contact .logo-footer {
+        height: 150px;
+        width: auto;
+        bottom: 40px;
+        right: 40px;
+    }
+
+    #footer-home .menu-footer,
+    #footer-services .menu-footer,
+    #footer-our-history .menu-footer,
+    #footer-gallery .menu-footer,
+    #footer-404 .menu-footer,
+    #footer-contact .menu-footer {
+        display: flex;
+    }
+
+    #footer-home .menu-footer ul,
+    #footer-services .menu-footer ul,
+    #footer-our-history .menu-footer ul,
+    #footer-gallery .menu-footer ul,
+    #footer-404 .menu-footer ul,
+    #footer-contact .menu-footer ul {
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        line-height: 35px;
+        margin: 30px;
+    }
+
+    #footer-home .menu-footer ul li a,
+    #footer-services .menu-footer ul li a,
+    #footer-our-history .menu-footer ul li a,
+    #footer-gallery .menu-footer ul li a,
+    #footer-404 .menu-footer ul li a,
+    #footer-contact .menu-footer ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    #footer-home .menu-footer ul li a:hover,
+    #footer-services .menu-footer ul li a:hover,
+    #footer-our-history .menu-footer ul li a:hover,
+    #footer-gallery .menu-footer ul li a:hover,
+    #footer-404 .menu-footer ul li a:hover,
+    #footer-contact .menu-footer ul li a:hover {
+        color: rgb(0, 0, 114);
+    }
+    #footer-home p,
+    #footer-services p,
+    #footer-our-history p,
+    #footer-gallery p,
+    #footer-404 p,
+    #footer-contact p {
+        font-size: medium;
+        width: 100%;
+    }
+}

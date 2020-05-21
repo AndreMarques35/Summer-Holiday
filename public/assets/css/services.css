@@ -1,0 +1,259 @@
+    #services {
+        flex-direction: column;
+    }
+    #services hr {
+        position: relative;
+        width: 100%;
+        height: 60px;
+        margin: 0;
+        background-color: var(--orange);
+    }
+    #services h1 {
+        position: absolute;
+        color: var(--white);
+        font-size: 25px;
+        left: 40vw;
+        font-weight: 200;
+        margin: 10px 0 0 0;
+        justify-content: center;
+        font-weight: 600;
+    }
+    #services .fullbanner {
+        flex-direction: column;
+    }
+    #services .fullbanner .services-boxes {
+        position: relative;
+        flex-direction: column;
+        color: var(--dark-blue);
+        z-index: 1;
+    }
+    #services .fullbanner .services-boxes .service1 {
+        flex-direction: column;
+        border: 4px solid var(--orange);
+        border-radius: 2%;
+        margin: 20px 40px;
+        padding: 10px;
+        align-items: center;
+        background-color:  var(--white-opacity);
+        height: fit-content;
+    }
+    #services .fullbanner .services-boxes .service1 h2 {
+        margin: 2px;
+    }
+    #services .fullbanner .services-boxes .service1 h3 {
+        margin: 2px;
+    }
+    #services .fullbanner .services-boxes .service1 p {
+        text-align: center;
+    }
+    #services .fullbanner .services-boxes .service2 {
+        flex-direction: column;
+        border: 4px solid var(--orange);
+        border-radius: 2%;
+        margin: 20px 40px;
+        padding: 10px;
+        align-items: center;
+        background-color:  var(--white-opacity);
+        height: fit-content;
+    }
+    #services .fullbanner .services-boxes .service2 h2 {
+        margin: 2px;
+    }
+    #services .fullbanner .services-boxes .service2 h3 {
+        margin: 2px;
+    }
+    #services .fullbanner .services-boxes .service2 p {
+        text-align: center;
+    }
+    #services .fullbanner .services-boxes .service3 {
+        flex-direction: column;
+        border: 4px solid var(--orange);
+        border-radius: 2%;
+        margin: 20px 40px;
+        padding: 10px;
+        align-items: center;
+        background-color:  var(--white-opacity);
+        height: fit-content;
+    }
+    #services .fullbanner .services-boxes .service3 h2 {
+        margin: 2px;
+    }
+    #services .fullbanner .services-boxes .service3 h3 {
+        margin: 2px;
+    }
+    #services .fullbanner .services-boxes .service3 p {
+        text-align: center;
+    }
+    #services .background {
+        background-image: url('/public/assets/images/photos/hot-air-ballons-828967_1920.jpg');
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+        flex-direction: column;
+        position: relative;
+    }
+    #services .background a {
+        width: 200px;
+        height: 40px;
+        background-color: var(--orange);
+        text-decoration: none;
+        color: var(--white);
+        text-align: center;
+        border-radius: 3px;
+        text-align: center;
+        text-justify: center;
+        align-self: center;
+        margin-top: 30px;
+        font-size: larger;
+        font-weight: bold;
+        }
+    #services .fullbanner .contact-desktop {
+        display: none;
+}
+@media (min-width: 576px) {
+    #services .background {
+        background-position: bottom;
+        min-height: 345px;
+    }
+}
+
+@media (min-width: 776px) {
+}
+
+@media (min-width: 992px) {
+    #services .fullbanner .services-boxes {
+        flex-direction: row;
+        align-content: center;
+    }
+    #services .fullbanner .services-boxes .service1 {
+        flex-direction: column;
+        border: 4px solid var(--orange);
+        border-radius: 2%;
+        margin: 20px 20px;
+        padding: 10px;
+        align-items: center;
+        background-color:  var(--white-opacity);
+        height: 100%;
+        width: fit-content;
+        font-size: 13px;
+    }
+      #services .fullbanner .services-boxes .service2 {
+        flex-direction: column;
+        border: 4px solid var(--orange);
+         border-radius: 2%;
+        margin: 20px 20px;
+         padding: 10px;
+        align-items: center;
+        background-color:  var(--white-opacity);
+         height: 100%;
+         width: fit-content;
+         font-size: 13px;
+    }
+    #services .fullbanner .services-boxes .service3 {
+        flex-direction: column;
+        border: 4px solid var(--orange);
+        border-radius: 2%;
+        margin: 20px 20px;
+        padding: 10px;
+        align-items: center;
+        background-color:  var(--white-opacity);
+        height: 100%;
+        width: fit-content;
+        font-size: 13px;
+    }
+    #services .background {
+        display: none;
+    }
+    #services .fullbanner {
+        flex-direction: column;
+        background-image: url('/public/assets/images/photos/hot-air-ballons-828967_1920.jpg');
+        width: 100%;
+        height: 840px;
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: -150px;
+        z-index: 0;
+    }
+    #services .fullbanner .contact-desktop {
+        display: flex;
+        width: 300px;
+        height: 60px;
+        background-color: var(--orange);
+        position: relative;
+        top: 10vh;
+        left: 35vw;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+    #services .fullbanner .contact-desktop a {
+        text-decoration: none;
+        color: var(--white);
+        text-align: center;
+        margin: 0;
+        font-size: 25px;
+    }
+    #services .fullbanner .contact-desktop:hover {
+        opacity: 70%;
+    }
+}
+
+@media (min-width: 1280px) {
+    #services .fullbanner {
+        height: 820px;
+    }
+}
+
+@media (min-width: 1366px) {
+    #services .fullbanner .services-boxes .service1,
+    #services .fullbanner .services-boxes .service2,
+    #services .fullbanner .services-boxes .service3 {
+        font-size: 18px;
+    }
+    #services .fullbanner {
+        height: 1055px;
+    }
+    #services .fullbanner .contact-desktop {
+        left: 42vw;
+    }
+}
+
+@media (min-width: 1620px) {
+    #services .fullbanner {
+        height: 1555px;
+    }
+    #services h1 {
+        left: 42vw;
+    }
+    #services .fullbanner .services-boxes .service1,
+    #services .fullbanner .services-boxes .service2,
+    #services .fullbanner .services-boxes .service3 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1920px) {
+    #services .fullbanner {
+        height: 1500px;
+    }
+    #services .fullbanner .contact-desktop {
+        left: 42vw;
+    }
+    #services h1 {
+        left: 45vw;
+    }
+    #services .fullbanner .contact-desktop {
+        height: 80px;
+        width: 450px;
+        
+    }
+    #services .fullbanner .contact-desktop a {
+        font-size: 34px;
+    }
+    #services .fullbanner .services-boxes .service1,
+    #services .fullbanner .services-boxes .service2,
+    #services .fullbanner .services-boxes .service3 {
+        font-size: 26px;
+    }
+}

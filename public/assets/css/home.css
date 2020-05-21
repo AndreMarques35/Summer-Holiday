@@ -1,0 +1,376 @@
+#home {
+    flex-direction: column;
+}
+#home header {
+    background-image: url('/public/assets/images/alexander-mils-dpKpRm5qSHM-unsplash\ \(1\).jpg');
+    width: 100%;
+    min-width: 320px;
+    height: 30vh;
+    background-size: 170%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+#home header h1 {
+    color: var(--white);
+    font-size: 100px;
+    opacity: 70%;
+    font-weight: 800;
+}
+#home .main {
+    position: relative;
+    flex-direction: column;
+}
+#home .main .about-us {
+    margin: 30px;
+    flex-direction: column;
+    color: var(--dark-blue)
+}
+#home .main .about-us h2 {
+    margin: 0;
+}
+#home .main .about-us hr {
+    background-color: var(--dark-blue);
+    width: 42%;
+    margin: 0;
+}
+#home .main .about-us p {
+    width: 100%;
+    height: 200px;
+    font-weight: bold;
+}
+#home .main .about-us a {
+    align-self: center;
+    width: 30vw;
+    height: 30px;
+    background-color: var(--dark-blue);
+    text-decoration: none;
+    color: var(--white);
+    text-align: center;
+    border-radius: 1px;
+    display: none;
+}
+#home .main .about-us .text {
+    width: 100%;
+    flex-direction: column;
+}
+#home .main img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 10px;
+    left: -20px;
+}
+#home .main .viagem {
+    background-image: url(/public/assets/images/dimitri-houtteman-Cjac9YfloCw-unsplash.jpg);
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    min-height: 300px;
+    background-size: 278%;
+    background-repeat: no-repeat;
+    background-position-y: -157px;
+    background-position-x: center;
+    justify-items: center;
+    position: relative;
+    color: var(--white);
+    flex-direction: column;
+}
+#home .main .viagem p {
+    font-size: 10px;
+    text-align: center;
+    margin: 20px 0 -10px 0;
+    margin-right: 0.9em;
+}
+#home .main .viagem h1 {
+    text-align: center;
+    font-size: 4em;
+    margin: 0;
+}
+#home .main .viagem a {
+    align-self: center;
+    width: 30vw;
+    height: 30px;
+    background-color: var(--dark-blue);
+    text-decoration: none;
+    color: var(--white);
+    text-align: center;
+    border-radius: 1px;
+}
+
+@media (min-width: 576px) {
+    #home header {
+        width: 100%;
+        height: 190px;
+        background-size: 100%;
+        background-position-y: -152px;
+    }
+    #home header h1 {
+        font-size: 100px;
+        margin-top: 24px;
+    }
+    #home .main .about-us p {
+        height: 134px;
+    }
+    #home .main .about-us hr {
+        width: 25%;
+    }
+    #home .main img {
+        width: 500px;
+        height: auto;
+        margin-left: 22px;
+    }
+    #home .main .viagem {
+        background-position-y: -267px;
+        height: 484px;
+    }
+    #home .main .viagem p {
+        font-size: 12px;
+    }
+    #home .main .viagem h1 {
+        text-align: center;
+        font-size: 72px;
+        margin: 0;
+    }
+    #home .main .viagem a {
+        font-size: 14px;
+        width: 18vw;
+        height: 25px;
+    }
+
+@media (min-width: 768px) {
+    #home header {
+        height: 250px;
+        background-position-y: -210px;
+    }
+    #home header h1 {
+        font-size: 125px;
+        margin-top: 27px;
+    }
+    #home .main .about-us hr {
+        width: 140px;
+    }
+    #home .main .about-us p {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    #home .main img {
+        margin-left: 130px;
+    }
+    #home .main .viagem {
+        background-position-y: -405px;
+        height: 593px;
+    }
+    #home .main .viagem p {
+        font-size: 12px;
+        margin-right: 0.9em;
+    }
+    #home .main .viagem h1 {
+        font-size: 75px;
+    }
+    #home .main .viagem a {
+        font-size: 16px;
+        width: 16vw;
+        height: 25px;
+    }
+}
+
+@media (min-width: 992px) {
+   #home header {
+        height: 346px;
+        background-position-y: -245px;
+    }
+    #home header h1 {
+        font-size: 190px;
+        margin-block-start: 0.21em;
+    }
+    #home .main .about-us {
+        flex-direction: row;
+    }
+    #home .main .about-us p {
+        width: 500px;
+        z-index: 1;
+        font-size: 18px;
+    }
+    #home .main .viagem h1 {
+        font-size: 110px;
+    }
+    #home .main .about-us h2 {
+        font-size: 33px;
+    }
+    #home .main .about-us hr {
+        width: 180px;
+    }
+    #home .main img {
+        margin-left: 0;
+        width: 47vw;
+        height: auto;
+    }
+    #home .main .about-us a {
+        margin-top: 101px;
+        font-size: 20px;
+        width: 20vw;
+        height: 35px;
+        margin-top: 45px;
+        display: unset;
+    }
+    #home .main .viagem p {
+        font-size: 16px;
+    }
+    #home .main .viagem {
+        background-position-y: -510px;
+        height: 773px;
+    }
+    #home .main .viagem a {
+        font-size: 20px;
+        width: 20vw;
+        height: 35px;
+    }
+
+@media (min-width: 1280px) {
+    #home header {
+        height: 418px;
+        background-position-y: -340px;
+    }
+    #home header h1 {
+        font-size: 240px;
+        margin-block-start: 0.17em;
+    }
+    #home .main .about-us h2 {
+        padding-left: 1em;
+    }
+    #home .main .about-us p {
+        font-size: 22px;
+        width: 49vw;
+    }
+    #home .main .about-us a {
+        font-size: 26px;
+        width: 26vw;
+        height: 41px;
+        margin-top: 80px;
+    }
+    #home .main .about-us hr {
+        width: 180px;
+        margin-left: 2em;
+    }
+    #home .main .about-us p {
+        margin-left: 1.5em;
+    }
+    #home .main .viagem h1 {
+        font-size: 132px;
+    }
+    #home .main .viagem {
+        background-position-y: -678px;
+        height: 980px;
+    }
+    #home .main .viagem p {
+        font-size: 20px;
+        margin-right: 16px;
+    }
+
+@media (min-width: 1366px) {
+    #home header {
+        height: 522px;
+        background-position-y: -293px;
+    }
+    #home header h1 {
+        font-size: 252px;
+        margin-block-start: 0.45em;
+    }
+    #home .main .about-us h2 {
+        font-size: 35px;
+    }
+    #home .main .about-us p {
+        font-size: 23px;
+    }
+    #home .main .about-us hr {
+        width: 200px;
+        margin-left: 2.2em;
+    }
+    #home .main .about-us a {
+        margin-top: 100px;
+    }
+    #home .main .viagem {
+        background-position-y: -710px;
+        height: 1060px;
+    }
+    #home .main .viagem h1 {
+        font-size: 160px;
+        margin-top: -10px;
+    }
+    #home .main .viagem p {
+        font-size: 25px;
+        margin-right: 27px;
+    }
+
+@media (min-width: 1620px) {
+    #home header {
+        height: 620px;
+        background-position-y: -340px;
+    }
+    #home header h1 {
+        font-size: 280px;
+    }
+    #home .main .about-us h1 {
+        font-size: 28px;
+    }
+    #home .main .about-us .text {
+        height: 490px;
+    }
+    #home .main .viagem {
+        background-position-y: -814px;
+        height: 1279px;
+    }
+    #home .main .about-us h2 {
+        font-size: 42px;
+        margin: 0;
+        padding-left: 0.55em;
+    }
+    #home .main .about-us hr {
+        width: 230px;
+        margin-left: 22px;
+        margin-bottom: 22px;
+    }
+    #home .main .about-us p {
+        font-size: 25x;
+        padding-left: 1.0em;
+        margin: 0;
+    }
+    #home .main .about-us a {
+        margin-top: 150px;
+        width: 16vw;
+        padding-left: 1em;
+    }
+    #home .main .viagem h1 {
+        font-size: 200px;
+        margin-top: -10px;
+    }
+    #home .main .viagem p {
+        margin-top: 30px;
+        margin-right: 32px;
+    }
+
+@media (min-width: 1920px) {
+    #home header {
+        height: 738px;
+        background-position-y: -406px;
+        background-size: 100%;
+    }
+    #home header {
+        margin-bottom: 3em;
+    }
+    #home header h1 {
+        font-size: 350px;
+    }
+    #home .main .viagem {
+        height: 1462px;
+        background-position-y: -1023px;
+    }
+    #home .main .viagem p {
+        font-size: 32px;
+        margin-right: 27px;
+        margin-top: 50px;
+    }
+}

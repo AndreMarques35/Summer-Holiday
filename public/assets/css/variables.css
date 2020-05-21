@@ -1,0 +1,17 @@
+:root {
+    --light-blue: #00adee;
+    --ultra-light-blue: #94c4ff;
+    --dark-blue:#004b67;
+    --blue: #1b75bb;
+    --white: #fff;
+    --white-opacity: rgba(255, 255, 255, 0.705);
+    --orange: #f05a28;
+    --dark-orange: #c3961e;
+    --yellow: #fcee21;
+    --light-yellow: #f0c85e;
+    --dark-yellow: rgb(170, 143, 21);
+    --green: #22be0d;
+    --gray80: #1d1d1d;
+    --red: #d90e0e;
+
+}
